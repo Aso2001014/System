@@ -51,9 +51,9 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|カテゴリID|category_id|int(11)|○|○||
-|氏名|name|varchar(20)||○||
-|登録日|reg_date|date||○||
+|価格|price|int(11)|○|○||
+|数量|num|varchar(20)||○||
+|削除フラグ|del_flag|date||○||
 
 ## 住所(m_category)
 
