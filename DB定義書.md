@@ -10,6 +10,7 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
+|氏名|user_name|bigint(20)|○|○||
 |Email|order_id|bigint(20)|○|○||
 |password|customer_code|varchar(50)||○|○|
 
@@ -17,6 +18,7 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
+|氏名|user_name|bigint(20)|○|○||
 |Email|order_id|bigint(20)|○|○||
 |password|customer_cod|bigint(20) |○|○|○|
 
@@ -37,7 +39,7 @@
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
 |カテゴリID|category_id|int(11)|○|○||
-|氏名|name|varchar(20)||○||
+|氏名|user_name|varchar(20)||○||
 |登録日|reg_date|date||○||
 
 ## 検索ページ(m_items)
@@ -59,7 +61,7 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|氏名|name|int(11)|○|○||
+|氏名|user_name|int(11)|○|○||
 |住所|address|varchar(20)||○||
 |電話番号|number|date||○||
 
