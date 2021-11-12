@@ -10,17 +10,17 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|氏名|user_name|varchar(20)|○|○||
-|メール|mail|varchar(100)|○|○||
-|パスワード|password|varchar(50)||○|○|
+|氏名|user_name|varchar(50)|○|○||
+|メール|mail|varchar(50)|○|○||
+|パスワード|password|varchar(10)||○|○|
 
 ## 新規会員登録(d_purchase_detail)
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|氏名|user_name|varchar(20)|○|○||
-|メール|mail|varchar(100)|○|○||
-|パスワード|password|varchar(50)||○|○|
+|氏名|user_name|varchar(50)|○|○||
+|メール|mail|varchar(50)|○|○||
+|パスワード|password|varchar(10)||○|○|
 
 
 ## 会員情報(m_customers)
@@ -30,7 +30,7 @@
 |購入履歴|Purchase history|varchar(50)|○|○||
 |お気に入り|favorite|varchar(50)||○||
 |会員情報変更|Member information change|varchar(20)||○||
-|パスワード変更|Change Password|varchar(50)||○||
+|パスワード変更|Change Password|varchar(10)||○||
 |決済情報変更|Change payment information|varchar(20)||○||
 |アドレス変更|Address change|varchar(100)||○||
 
@@ -38,8 +38,8 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|カテゴリID|category_id|int(11)|○|○||
-|氏名|user_name|varchar(20)||○||
+|カテゴリID|category_id|char(7)|○|○||
+|氏名|user_name|varchar(50)||○||
 |登録日|reg_date|date||○||
 
 ## 検索ページ(m_items)
@@ -61,7 +61,7 @@
 
 |和名|属性名(カラム名)|型|PK|NN|FK|
 |---|-----|--|--|--|--|
-|氏名|user_name|varchar(20)|○|○||
+|氏名|user_name|varchar(50)|○|○||
 |住所|address|varchar(20)||○||
 |電話番号|tel|varchar(20)||○||
 
